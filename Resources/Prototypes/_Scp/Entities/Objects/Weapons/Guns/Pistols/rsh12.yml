@@ -1,8 +1,8 @@
 - type: entity
-  name: RSH-12
+  name: BaseWeaponRSH12
   parent: BaseItem
   id: BaseWeaponRSH12
-  description: The Assault Revolver uses a 12.7 mm cartridge. It is ideal for special forces.
+  description: BOOM
   abstract: true
   components:
   - type: Sprite
@@ -17,12 +17,8 @@
     tags:
     - Sidearm
     - LockerPistol
-  - type: Sprite
-    sprite: _Scp/RSH12/RotShatal12/big.rsi
   - type: Clothing
-    sprite: _Scp/RSH12/RotShatal12/tiny.rsi
-  - type: Item
-    sprite: /Uploaded/RSH12/RotShatal12/tiny.rsi
+    sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
     quickEquip: false
     slots:
     - suitStorage
@@ -30,11 +26,11 @@
   - type: AmmoCounter
   - type: Gun
     selectedMode: SemiAuto
-    fireRate: 3
+    fireRate: 1.5
     availableModes:
     - SemiAuto
     soundGunshot:
-      path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
+      path: /Audio/Weapons/Guns/Gunshots/revolver.ogg
   - type: UseDelay
     delay: 0.66
   - type: ContainerContainer
@@ -66,6 +62,23 @@
   - type: EmitSoundOnCollide
     sound:
       collection: RevolversCollide
+
+- type: entity
+  name: RSH-12
+  description: The Assault Revolver uses a 12.7 mm cartridge. It is ideal for special forces.
+  parent: BaseWeaponRSH12
+  id: WeaponRevolverRSH12
+  components:
+  - type: Sprite
+    sprite: _Scp/Objects/Weapons/Guns/Pistols/RSH12/big.rsi
+  - type: Clothing
+    sprite: _Scp/Objects/Weapons/Guns/Pistols/RSH12/tiny.rsi
+  - type: Item
+    sprite: _Scp/Objects/Weapons/Guns/Pistols/RSH12/tiny.rsi
+  - type: Gun
+    fireRate: 3
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
   - type: StealTarget
     stealGroup: OfficerHandgun
     
