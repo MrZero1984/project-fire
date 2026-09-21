@@ -67,7 +67,7 @@
   name: RSH-12
   description: The Assault Revolver uses a 12.7 mm cartridge. It is ideal for special forces.
   parent: BaseWeaponRSH12
-  id: WeaponRevolverRSH12
+  id: WeaponRevolverRSH112
   components:
   - type: Sprite
     sprite: _Scp/Objects/Weapons/Guns/Pistols/RSH12/big.rsi
