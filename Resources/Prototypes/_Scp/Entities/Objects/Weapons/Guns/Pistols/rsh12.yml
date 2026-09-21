@@ -17,6 +17,7 @@
     tags:
     - Sidearm
     - LockerPistol
+  - type: CanDualWield
   - type: Clothing
     sprite: Objects/Weapons/Guns/Revolvers/deckard.rsi
     quickEquip: false
