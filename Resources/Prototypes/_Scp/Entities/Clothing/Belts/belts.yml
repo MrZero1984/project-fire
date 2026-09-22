@@ -52,7 +52,6 @@
   id: ClothingBeltGRUrig
   name: Chest rig
   description:  A versatile, premium load‑bearing vest with straps and a belt.
-  Suffix: пустой
   components:
   - type: Sprite
     sprite: _Scp/Clothing/Belts/rurps.rsi

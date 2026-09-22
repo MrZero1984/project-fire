@@ -424,7 +424,7 @@
         amount: 5
 
 - type: entity
-  parent: BaseMtfStorageCrateSmallPistol
+  parent: BaseMtfStorageCrateSmallGranade
   id: MtfStorageCrateDisposableRocketLauncher
   categories: [ HideSpawnMenu ]
   components:
@@ -438,7 +438,7 @@
       - id: SunriseWeaponDisposableRocketLauncher
 
 - type: entity
-  parent: BaseMtfStorageCrateSmallPistol
+  parent: BaseMtfStorageCrateSmallGranade
   id: MtfStorageCrateDisposableRocketLauncherIncendiary
   categories: [ HideSpawnMenu ]
   components:
