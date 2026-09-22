@@ -2127,29 +2127,7 @@
   - !type:ListingLimitedStockCondition
     stock: 1
 
-# Взрывчатка
-- type: listing
-  id: ScpUplinkMtfStorageCrateGrenadeFragTimer
-  productEntity: MtfStorageCrateGrenadeFragTimer
-  name: shop-name-granade-frag-timer
-  description: shop-desc-granade-frag-timer
-  icon: { sprite: _Scp/Interface/Misc/mtf_store_icon.rsi, state: granade_frag_box5 }
-  cost:
-    SupplyPoint: 5
-  categories:
-  - ScpExplosive
-  conditions:
-  - !type:ListingLimitedStockCondition
-    stock: 2
-  - !type:BuyerJobCondition
-    blacklist:
-    - MHLeader # Б-7
-    - MHSpecialist
-    - MHCadet
-    - NTFLeader # Э-11
-    - NTFSpecialist
-    - NTFCadet
-
+# Ручные гранатомёты
 - type: listing
   id: ScpUplinMtfStorageCrateDisposableRocketLauncher
   productEntity: MtfStorageCrateDisposableRocketLauncher
@@ -2172,6 +2150,7 @@
     - NTFSpecialist
     - NTFCadet
 
+# Отравляющие вещества
 - type: listing
   id: ScpUplinMtfStorageCrateDisposableRocketLauncherIncendiary
   productEntity: MtfStorageCrateDisposableRocketLauncherIncendiary
@@ -2190,6 +2169,29 @@
     - HDLeader # Ню-7
     - HDSpecialist
     - HDCadet
+    - NTFLeader # Э-11
+    - NTFSpecialist
+    - NTFCadet
+
+# Взрывчатка
+- type: listing
+  id: ScpUplinkMtfStorageCrateGrenadeFragTimer
+  productEntity: MtfStorageCrateGrenadeFragTimer
+  name: shop-name-granade-frag-timer
+  description: shop-desc-granade-frag-timer
+  icon: { sprite: _Scp/Interface/Misc/mtf_store_icon.rsi, state: granade_frag_box5 }
+  cost:
+    SupplyPoint: 5
+  categories:
+  - ScpExplosive
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 2
+  - !type:BuyerJobCondition
+    blacklist:
+    - MHLeader # Б-7
+    - MHSpecialist
+    - MHCadet
     - NTFLeader # Э-11
     - NTFSpecialist
     - NTFCadet
