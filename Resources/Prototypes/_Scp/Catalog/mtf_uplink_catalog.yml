@@ -2151,6 +2151,50 @@
     - NTFCadet
 
 - type: listing
+  id: ScpUplinMtfStorageCrateDisposableRocketLauncher
+  productEntity: MtfStorageCrateDisposableRocketLauncher
+  name: shop-name-rocketbox
+  description: shop-desc-rocketbox
+  icon: { sprite: _Scp/Interface/Misc/mtf_store_icon.rsi, state: rocket_box3 }
+  cost:
+    SupplyPoint: 5
+  categories:
+  - ScpExplosive
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+  - !type:BuyerJobCondition
+    blacklist:
+    - MHLeader # Б-7
+    - MHSpecialist
+    - MHCadet
+    - NTFLeader # Э-11
+    - NTFSpecialist
+    - NTFCadet
+
+- type: listing
+  id: ScpUplinMtfStorageCrateDisposableRocketLauncher
+  productEntity: MtfStorageCrateDisposableRocketLauncherIncendiary
+  name: shop-name-Incendiaryrocketbox
+  description: shop-desc-Incendiaryrocketbox
+  icon: { sprite: _Scp/Interface/Misc/mtf_store_icon.rsi, state: Incendiary_rocket_box3 }
+  cost:
+    SupplyPoint: 5
+  categories:
+  - ScpExplosive
+  conditions:
+  - !type:ListingLimitedStockCondition
+    stock: 1
+  - !type:BuyerJobCondition
+    blacklist:
+    - HDLeader # Ню-7
+    - HDSpecialist
+    - HDCadet
+    - NTFLeader # Э-11
+    - NTFSpecialist
+    - NTFCadet
+
+- type: listing
   id: ScpUplinkMtfStorageCrateGrenadeBlastTimer
   productEntity: MtfStorageCrateGrenadeBlastTimer
   name: shop-name-granade-blast-timer

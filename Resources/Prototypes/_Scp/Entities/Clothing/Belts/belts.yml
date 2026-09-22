@@ -46,3 +46,35 @@
           - SmokeOnTrigger
     sprite: Clothing/Belt/belt_overlay.rsi
   - type: Appearance
+
+- type: entity
+  parent: [BaseSovietContraband, ClothingBeltMilitaryWebbingMedSunrise, ContentsExplosionResistanceBase]
+  id: ClothingBeltGRUrig
+  name: Chest rig
+  description:  A versatile, premium load‑bearing vest with straps and a belt.
+  Suffix: пустой
+  components:
+  - type: Sprite
+    sprite: _Scp/Clothing/Belts/GRU.rsi
+  - type: Clothing
+    sprite: _Scp/Clothing/Belts/GRU.rsi
+  - type: ExplosionResistance
+    damageCoefficient: 0.1
+
+- type: entity
+  parent: ClothingBeltGRUrig
+  id: ClothingBeltGRUrigFilled
+  components:
+  - type: EntityTableContainerFill
+    containers:
+      storagebase: !type:AllSelector
+        children:
+        - id: MedkitCombatFilled
+        - id: Tourniquet
+        - id: Tourniquet
+        - id: ExShrapnelGrenade
+        - id: MagazineBoxLightRifleBig
+        - id: MagazineLightRifleFMJ
+        - id: MagazineLightRifleFMJ
+        - id: MagazineLightRifleFMJ
+        - id: MagazineLightRifleFMJ
