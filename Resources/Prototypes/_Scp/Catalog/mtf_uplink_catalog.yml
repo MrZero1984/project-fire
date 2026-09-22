@@ -2157,9 +2157,9 @@
   description: shop-desc-rocketbox
   icon: { sprite: _Scp/Interface/Misc/mtf_store_icon.rsi, state: rocket_box3 }
   cost:
-    SupplyPoint: 5
+    SupplyPoint: 7
   categories:
-  - ScpExplosive
+  - ScpRocket
   conditions:
   - !type:ListingLimitedStockCondition
     stock: 1
@@ -2173,15 +2173,15 @@
     - NTFCadet
 
 - type: listing
-  id: ScpUplinMtfStorageCrateDisposableRocketLauncher
+  id: ScpUplinMtfStorageCrateDisposableRocketLauncherIncendiary
   productEntity: MtfStorageCrateDisposableRocketLauncherIncendiary
   name: shop-name-Incendiaryrocketbox
   description: shop-desc-Incendiaryrocketbox
   icon: { sprite: _Scp/Interface/Misc/mtf_store_icon.rsi, state: Incendiary_rocket_box3 }
   cost:
-    SupplyPoint: 5
+    SupplyPoint: 7
   categories:
-  - ScpExplosive
+  - Scpbetaflame
   conditions:
   - !type:ListingLimitedStockCondition
     stock: 1

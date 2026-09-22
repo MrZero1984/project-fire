@@ -55,9 +55,9 @@
   Suffix: пустой
   components:
   - type: Sprite
-    sprite: _Scp/Clothing/Belts/GRU.rsi
+    sprite: _Scp/Clothing/Belts/rurps.rsi
   - type: Clothing
-    sprite: _Scp/Clothing/Belts/GRU.rsi
+    sprite: _Scp/Clothing/Belts/rurps.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.1
 
