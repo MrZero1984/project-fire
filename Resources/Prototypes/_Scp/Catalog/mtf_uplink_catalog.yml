@@ -665,6 +665,32 @@
     - ScpUplinkMtfUnlockPrimaryArms
 
 - type: listing
+  id: ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
+  productEntity: MtfStorageCrateSubMachineGunSIGMPX
+  name: shop-name-sig-mpx-name
+  description: shop-name-sig-mpx-desc
+  icon: { sprite: _Scp/Interface/Misc/mtf_store_icon.rsi, state: MPX }
+  cost:
+    SupplyPoint: 2
+  categories:
+  - ScpPrimaryArms
+  conditions:
+  - !type:BuyBeforeCondition
+    blacklist:
+    - ScpUplinkMtfStorageCrateSubMachineGunMP5
+    - ScpUplinkMtfStorageCrateSubMachineGunP90
+    - ScpUplinkMtfStorageCrateShotgunCombat
+    - ScpUplinkMtfStorageCrateShotgunBulldog
+    - ScpUplinkWeaponEarthGovLaserRifle
+    - ScpUplinkWeaponEarthGovLaserSniper
+    - ScpUplinkMtfStorageCrateWeaponRifleAK103
+    - ScpUplinkMtfStorageCrateWeaponRifleAsh12
+    - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
+    - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    whitelist:
+    - ScpUplinkMtfUnlockPrimaryArms
+
+- type: listing
   id: ScpUplinkMtfStorageCrateShotgunCombat
   productEntity: MtfStorageCrateShotgunCombat
   name: shop-name-scbox

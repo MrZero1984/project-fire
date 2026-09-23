@@ -76,3 +76,5 @@ ent-MtfStorageCrateArmorHDLeader = { ent-BaseMtfStorageCrateArmor }
     .desc = { ent-BaseMtfStorageCrateArmor.desc }
 ent-MtfStorageCrateArmorHeavyHDLeader = { ent-BaseMtfStorageCrateArmor }
     .desc = { ent-BaseMtfStorageCrateArmor.desc }
+ent-MtfStorageCrateSubMachineGunSIGMPX = a box of weapons
+    .desc = { ent-BaseMtfStorageCrate.desc }
