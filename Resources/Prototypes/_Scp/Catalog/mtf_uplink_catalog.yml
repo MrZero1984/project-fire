@@ -637,6 +637,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
 
@@ -661,6 +662,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
 
@@ -687,6 +689,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
 
@@ -711,6 +714,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
 
@@ -737,6 +741,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
   - !type:BuyerJobCondition
@@ -769,6 +774,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
   - !type:BuyerJobCondition
@@ -807,6 +813,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
   - !type:BuyerJobCondition
@@ -847,6 +854,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
   - !type:BuyerJobCondition
@@ -885,6 +893,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
   - !type:BuyerJobCondition
@@ -923,6 +932,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
   - !type:BuyerJobCondition
@@ -2452,6 +2462,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
   - !type:BuyerJobCondition
@@ -2484,6 +2495,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
   - !type:BuyerJobCondition
@@ -2516,6 +2528,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
 
@@ -2542,6 +2555,7 @@
     - ScpUplinkMtfStorageCrateWeaponRifleAsh12
     - ScpUplinkMtfStorageCrateWeaponSubMachineGunNewVector
     - ScpUplinkMtfStorageCrateWeaponRifleAR18M
+    - ScpUplinkMtfStorageCrateSubMachineGunSIGMPX
     whitelist:
     - ScpUplinkMtfUnlockPrimaryArms
   - !type:BuyerJobCondition

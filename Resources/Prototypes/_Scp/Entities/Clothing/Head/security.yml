@@ -91,6 +91,9 @@
   - type: PointLight
     radius: 8
     energy: 3
+  - type: HideLayerClothing
+    slots:
+    - Hair
   - type: Armor
     modifiers:
       coefficients:
