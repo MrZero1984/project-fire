@@ -124,16 +124,16 @@
     slots:
       gun_magazine:
         name: Magazine
-        startingItem: MagazinePistolHighCapacity
+        startingItem: MagazinePistolHighCapacity # Fire Edit
         insertSound: /Audio/_Sunrise/Weapons/Guns/Pistols/glock22/glock22_reload.ogg
         ejectSound: /Audio/_Sunrise/Weapons/Guns/Pistols/glock22/glock22_unload.ogg
         priority: 2
         whitelist:
           tags:
-          - MagazinePistolHighCapacity
+          - MagazinePistolHighCapacity # Fire Edit
       gun_chamber:
         name: Chamber
-        startingItem: MagazinePistolHighCapacitySP
+        startingItem: MagazinePistolHighCapacitySP # Fire Edit
         priority: 1
         whitelist:
           tags:
