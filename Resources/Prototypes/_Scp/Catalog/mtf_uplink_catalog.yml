@@ -2300,6 +2300,7 @@
     - ScpUplinkWeaponEarthGovLaserMG
     - ScpUplinkPowerpackMinigunMG100
     - ScpUplinkClothingBackpackPhlogistonTankScp
+    - ScpUplinkWeaponGodlikeXRay
     whitelist:
     - ScpUplinkMtfUnlockSpecWeapon
   - !type:BuyerJobCondition
@@ -2325,6 +2326,7 @@
     - ScpUplinkWeaponEarthGovLaserMG
     - ScpUplinkPowerpackMinigunMG100
     - ScpUplinkClothingBackpackPhlogistonTankScp
+    - ScpUplinkWeaponGodlikeXRay
     whitelist:
     - ScpUplinkMtfUnlockSpecWeapon
   - !type:BuyerJobCondition
@@ -2350,6 +2352,7 @@
     - ScpUplinkWeaponEarthGovLaserMG
     - ScpUplinkPowerpackMinigunMG100
     - ScpUplinkClothingBackpackPhlogistonTankScp
+    - ScpUplinkWeaponGodlikeXRay
     whitelist:
     - ScpUplinkMtfUnlockSpecWeapon
   - !type:BuyerJobCondition
@@ -2373,6 +2376,7 @@
     - ScpUplinkWeaponEarthGovLaserMG
     - ScpUplinkPowerpackMinigunMG100
     - ScpUplinkClothingBackpackPhlogistonTankScp
+    - ScpUplinkWeaponGodlikeXRay
     whitelist:
     - ScpUplinkMtfUnlockSpecWeapon
   - !type:BuyerJobCondition
@@ -2398,6 +2402,7 @@
     - ScpUplinkWeaponEarthGovLaserMG
     - ScpUplinkPowerpackMinigunMG100
     - ScpUplinkClothingBackpackPhlogistonTankScp
+    - ScpUplinkWeaponGodlikeXRay
     whitelist:
     - ScpUplinkMtfUnlockSpecWeapon
   - !type:BuyerJobCondition
@@ -2405,6 +2410,33 @@
     - MHLeader # Б-7
     - MHSpecialist
     - MHCadet
+
+- type: listing
+  id: ScpUplinkWeaponGodlikeXRay
+  productEntity: WeaponGodlikeXRay
+  icon: { sprite: _Scp/Interface/Misc/mtf_store_icon.rsi, state: relsa }
+  categories:
+  - ScpSpecWeapon
+  conditions:
+  - !type:BuyBeforeCondition
+    blacklist:
+    - ScpUplinkMtfStorageCrateMachineGunMG60
+    - ScpUplinkMtfStorageCrateGrenadeLauncherGL70
+    - ScpUplinkMtfStorageCrateRifleBauer127
+    - ScpUplinkWeaponEarthGovLaserMG
+    - ScpUplinkPowerpackMinigunMG100
+    - ScpUplinkClothingBackpackPhlogistonTankScp
+    - ScpUplinkWeaponGodlikeXRay
+    whitelist:
+    - ScpUplinkMtfUnlockSpecWeapon
+  - !type:BuyerJobCondition
+    blacklist:
+    - MHLeader # Б-7
+    - MHSpecialist
+    - MHCadet
+    - HDLeader # Ню-7
+    - HDSpecialist
+    - HDCadet
 
 - type: listing
   id: ScpUplinkClothingBackpackPhlogistonTankScp
@@ -2421,6 +2453,7 @@
     - ScpUplinkWeaponEarthGovLaserMG
     - ScpUplinkPowerpackMinigunMG100
     - ScpUplinkClothingBackpackPhlogistonTankScp
+    - ScpUplinkWeaponGodlikeXRay
     whitelist:
     - ScpUplinkMtfUnlockSpecWeapon
   - !type:BuyerJobCondition
