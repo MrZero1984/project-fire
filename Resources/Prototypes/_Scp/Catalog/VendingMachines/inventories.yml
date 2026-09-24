@@ -159,6 +159,8 @@
     ClothingHeadHelmetSecuritylight: 3
     RiotBulletShield: 2
     CombatKnife: 3
+    PouchAmmo: 3
+    PouchDrop: 3
     Bola: 6
     RadioHandheldExternalAdministrativeZoneSecurityService: 5
     RadioHandheldHeavyContainmentSecurityService: 5
