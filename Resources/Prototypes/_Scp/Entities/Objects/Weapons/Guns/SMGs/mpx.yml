@@ -47,6 +47,9 @@
         whitelist:
           tags:
           - MagazinePistolSubMachineGun
+          - MagazineMP5
+          - MagazineCaselessRifle
+          - MagazinePistolHighCapacity
       gun_chamber:
         name: Chamber
         startingItem: CartridgePistolSP
@@ -54,6 +57,8 @@
         whitelist:
           tags:
           - CartridgePistol
+          - CartridgePistolDP
+          - CartridgeCaselessRifle
   - type: MagazineVisuals
     magState: mag
     steps: 1
