@@ -50,7 +50,7 @@
           - MagazineMP5
           - MagazineCaselessRifle
           - MagazinePistolHighCapacity
-          - MagazinePistol40SubMachineGun
+          - MagazinePistolSubMachineGun
           - MagazinePistolDPSubMachineGun
       gun_chamber:
         name: Chamber
