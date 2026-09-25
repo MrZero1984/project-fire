@@ -51,6 +51,7 @@
           - MagazineCaselessRifle
           - MagazinePistolHighCapacity
           - MagazinePistol40SubMachineGun
+          - MagazinePistolDPSubMachineGun
       gun_chamber:
         name: Chamber
         startingItem: CartridgePistolSP
@@ -60,7 +61,6 @@
           - CartridgePistol
           - CartridgePistolDP
           - CartridgeCaselessRifle
-          - CartridgePistol40
   - type: MagazineVisuals
     magState: mag
     steps: 1
