@@ -428,6 +428,8 @@
     #- SecurityAmmoStatic
     - SecurityWeaponsStatic
     - SecurityStaticSunrise # Sunrise-Add
+    - SecurityStaticAmmoScp # Fire-Add
+    - SecurityStaticToolsScp # Fire-Add
     dynamicPacks:
     - SecurityDynamicWeaponsScp # Fire added
     - SalvageSecurityBoards
@@ -494,6 +496,7 @@
       staticPacks:
     #  - SecurityAmmoStatic # Sunrise - comment
       - SecurityStaticSunrise # Sunrise-Add
+      - SecurityStaticAmmoScp # Fire-Add
     - type: EmagLatheRecipes
       emagStaticPacks:
       - SyndicateAmmoStatic
