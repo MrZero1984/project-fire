@@ -63,7 +63,7 @@
   id: DeathRattleImplantMTF
   components:
     - type: RattleOnTrigger
-      radioChannel: RegionalAdministration
+      radioChannel: MobileTaskForce
 
 - type: entity
   parent: BoxErtImplants
