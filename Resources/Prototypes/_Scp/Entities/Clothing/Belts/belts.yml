@@ -83,7 +83,7 @@
   id: ClothingBeltHUNK
   name: Special forces belt
   description:  It can accommodate various pieces of equipment, such as weapon magazines, grenades, and even small first-aid kits.
-  Suffix: HUNK
+  suffix: HUNK
   components:
   - type: Sprite
     sprite: _Scp/Clothing/Belts/hunk_belt.rsi
