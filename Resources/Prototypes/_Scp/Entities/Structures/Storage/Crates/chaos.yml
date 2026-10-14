@@ -114,7 +114,7 @@
   - type: StorageFill
     contents:
       - id: SunriseWeaponSubMachineGunUzi
-      - id: BMagazinePistolSubMachineGun
-      - id: BMagazinePistolSubMachineGun
-      - id: MagazinePistolSubMachineGun
+      - id: MagazinePistolSubMachineGunSP
+      - id: MagazinePistolSubMachineGunSP
+      - id: MagazinePistolSubMachineGunSP
       - id: MagazineBoxPistolSP
